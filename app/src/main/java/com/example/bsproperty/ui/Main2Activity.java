@@ -197,7 +197,7 @@ public class Main2Activity extends BaseActivity {
                                         mData.clear();
                                         int sum = 0;
                                         for (ResultBean.Bean bean1 : bean.getResult()) {
-                                            if (bean1.getScores()[0] > 80) {
+                                            if (bean1.getScores()[0] > 70) {
                                                 mData.add(bean1);
                                                 sum++;
                                             }
